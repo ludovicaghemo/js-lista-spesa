@@ -13,11 +13,11 @@ let shoppingString = "";
 
 while (i < shoppingList.length) {
     // Creare una variabile per ogni elemento corrente della spesa, che corrisponda al numero dell'iterazione 
-    const curShoppingItem = shoppingList[i]; 
+    const curShoppingItem = shoppingList[i];
     // Prendere la variabile globale vuota precedentemente creata, e tramite template literal inserire l'elemento della lista HTML
     shoppingString += `<li>${curShoppingItem}</li>`;
-    // Condizione di uscita: incrementare i 
-    i++; 
+    // Incrementare i 
+    i++;
 }
 
 console.log(shoppingString);

@@ -20,7 +20,7 @@ Data una lista della spesa, stampare sulla pagina (anche brutalmente, basta che 
         `
         shoppingString += '<li>${curShoppingItem}</li>'
         `
-        - Condizione di uscita: incrementare i per evitare di creare un ciclo infinito
+        - Incrementare i per evitare di creare un ciclo infinito
         `
         i++; 
         `
